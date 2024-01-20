@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .navbar-elements {
+        display: none;
+    }
+
+    .left-connect a {
+        display: none;
+    }
+
+    .nav-flex {
+        background-color: white;
+    }
+
+    .car-girl {
+        flex-direction: column;
+        width: 100%;
+
+    }
+}

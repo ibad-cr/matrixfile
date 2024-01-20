@@ -1,0 +1,261 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import url(media.css);
+
+body, * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+
+.connection {
+    background-color: #121212;
+    width: 100%;
+}
+
+ .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 85%;
+}
+
+.connection .wrapper .container .connect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+}
+
+.connection .wrapper .container .connect .left-connect {
+    display: flex;
+    font-size: 14px;
+    gap: 40px;
+}
+
+.connection .wrapper .container .connect .left-connect a {
+    color: white;
+}
+
+.connection .wrapper .container .connect .left-connect i {
+    color: #1ECB15;
+}
+
+.connection .wrapper .container .connect .right-connect {
+    color: white;
+    display: flex;
+    gap: 30px;
+}
+
+.connection .wrapper .container .connect .right-connect i {
+    color: white;
+    font-size: 14px;
+    gap: 40px;
+}
+
+.navbar {
+    background-image: url('	https://www.madebydesignesia.com/themes/rentaly/images/background/14.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+
+.navbar .nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.navbar .navbar-elements ul {
+    display: flex;
+    gap: 50px;
+}
+
+.navbar .navbar-elements ul li a {
+    color: white;
+}
+
+.navbar .navbar-elements ul li a {
+    color: white;
+}
+
+.navbar .nav-flex .girl-image img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.container .myFav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    font-size: 30px;
+}
+
+.container .myFav h1 {
+    color:white;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con {
+    width: 75%;
+}
+
+.cars-seller .wrap .con .girl-information {
+    width: 22%;
+}
+
+.cars-seller .wrap .con .girl-information .status-girl {
+    display: flex;
+    justify-content: center;
+}
+
+.cars-seller .wrap .con .girl-information .status-girl img {
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border: 3px solid #1ECB15;
+    padding: 5px;
+}
+
+
+.dashboard ul li {    
+    padding-bottom: 15px;
+}
+
+.dashboard ul li a {    
+    color: #333333;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.dashboard i {    
+    color: #1ECB15;
+}
+
+.name-email-girl {
+    padding-bottom: 30px;
+}
+
+.name-email-girl h4 {
+    color: #031B4E;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.name-email-girl p {
+    opacity: 80%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.car-img img {
+    height: 150px;
+    border-radius: 6px;
+}
+
+.car-girl {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.car-girl .car-information { 
+    width: 100%;
+}
+
+.car-girl .car-1 {
+    display: flex;
+    width: 100%;
+    padding-bottom: 80px;
+}
+
+.car-2 {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.car-3 {
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.car-girl .car-info {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 150px;
+    width: 100%;
+}
+
+.rent-button .rent {
+    padding: 10px 30px;
+    color: white;
+    background-color: #1ECB15;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.rent-button {
+    text-align: center;
+    color: #4D5B7C;
+    line-height: 1.7rem;
+}
+
+.rent-button h2 {
+    text-align: center;
+    color: black;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+
+.one-table ul li a {
+    color: #4D5B7C;
+    line-height: 1.7rem;
+}
+
+.two-table ul li a {
+    color: #4D5B7C;
+    line-height: 1.7rem;
+}
+
+
+.footer {
+    background-color: #121212;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-Rentaly {
+    width: 20%;
+}
+
+.burger {
+    display: none;
+}
